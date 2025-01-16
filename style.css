@@ -1,0 +1,46 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #d0d0d0;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-family: Helvetica;
+    color: #311b92;
+  }
+  
+  #byline {
+    font-size: 1.1em;
+    font-family: times new roman;
+  }
+  
+  #list {
+    font-size: 1.3em;
+    font-family: times new roman;
+  }
+  
+  #contact {
+    font-size: 0.8em;
+    font-family: helvetica;
+    color: #3e424b;
+  }
+  
+  p {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding-bottom: 20 px;
+  }
+  
+  @media (orientation: portrait) {
+    #content {
+      width: 100%;
+    }
+    body {
+      background-color: #ffffff;
+    }
+    h1 {
+      color: #3e424b;
+    }
+  }
+  
